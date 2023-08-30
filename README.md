@@ -1,5 +1,4 @@
 # Enhancing Artificial Intelligence Systems through ALife Principles and Generative Models: A Case Study with Super Mario Bros
-# A minimal example of a VAE for Mario
 
 GAN, DCGAN, Minimal VAE and MarioGPT can be located in the 'models' folder. 
 Each folder includes the main scripts such as:
