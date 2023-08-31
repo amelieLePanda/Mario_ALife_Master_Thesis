@@ -68,15 +68,18 @@ python load_run_level.py
 
 ## Bibliography and Software
 Implementations are based, adapted and/or inspired by the following works:
+
 Sudhakaran, s., Glanois, C., Freiberger, M., Najarro, E., & Risi S., 2023.
 MarioGPT: Open-Ended Text2Level Generation through Large Language Models.
 Available from: https://github.com/shyamsn97/mario-gpt/tree/main [Accessed 04 April 2023]
 
-Paper: Sudhakaran, s., Glanois, C., Freiberger, M., Najarro, E., & Risi S., 2023.
+Paper: 
+Sudhakaran, s., Glanois, C., Freiberger, M., Najarro, E., & Risi S., 2023.
 MarioGPT: Open-Ended Text2Level Generation through Large Language Models. ArXiv [Online].
-Available from: URL [Accessed 04 April 2023].
+Available from: https://arxiv.org/abs/2302.05981 [Accessed 04 April 2023].
 
 Code basis based on and adapted from:
+
 González-Duque, M., 2023. Minimal implementation of a Variational Autoencoder on Super Mario Bros (0.1).
 Available from: https://github.com/miguelgondu/minimal_VAE_on_Mario [Accessed 04 April 2023]
 
@@ -85,21 +88,34 @@ Mario plays on a manifold: Generating functional content in latent space through
 In 2022 IEEE Conference on Games (CoG) (pp. 385-392). IEEE.
 
 DCGAN architecture inspired by:
+
 Volz, V., Schrum, J., Liu, J., Lucas, S. M., Smith, A., & Risi, S.,  2018.
 Evolving mario levels in the latent space of a deep convolutional generative adversarial network. In GECCO.
 Aguirre, ed. Proceedings of the genetic and evolutionary computation conference, July 15 - 19, 2018, Kyoto Japan.
 New York US: Association for Computing Machinery, pp. 221-228.
 
 Student-t approach inspired by:
+
 Mathieu, E., Rainforth, T., Siddharth, N., & Teh, Y. W., 2019.
 Disentangling disentanglement in variational autoencoders.
 In International conference on machine learning (pp. 4402-4412). PMLR.
 
 Map-Elites based and adapted from:
+
 Bryon Tjanaka and Sam Sommerer and Nikitas Klapsis and Matthew C. Fontaine and Stefanos Nikolaidis, 2021.
 Using CMA-ME to Land a Lunar Lander Like a Space Shuttle. Available from:
 https://docs.pyribs.org/en/stable/tutorials/lunar_lander.html [Accessed 07.07.2023]
 
+VGLC:
+
+Summerville, A. J., Snodgrass, S., Mateas, M., Onta'n Villar, S., 2016.
+The VGLC: The Video Game Level Corpus
+Proceedings of the 7th Workshop on Procedural Content Generation
+
+Mario-AI-Framework:
+
+Created by Ahmed Khalifa, based on work by Sergey Karakovskiy, Noor Shaker, and Julian Togelius, which in turn was based on Infinite Mario Bros by Markus Persson.
+Available from: https://github.com/amidos2006/Mario-AI-Framework [Accessed 18.03.2023]
 
 ![](https://github.com/amelieLePanda/Mario_ALife_Master_Thesis/blob/main/results_playabilit_out_of_five/extreme_diff_mario_fail_high_quality.gif)
 ![Image](https://github.com/amelieLePanda/Mario_ALife_Master_Thesis/blob/main/results_playabilit_out_of_five/extreme_diff_mario_pass__high_quality.gif)
