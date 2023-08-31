@@ -1,26 +1,23 @@
 # Enhancing Artificial Intelligence Systems through ALife Principles and Generative Models: A Case Study with Super Mario Bros
 
+![Image](https://github.com/amelieLePanda/Mario_ALife_Master_Thesis/blob/main/results_playabilit_out_of_five/difficult_mario_agent_fails_runs_back_multiple.gif)
+
+
 GAN, DCGAN, Minimal VAE and MarioGPT can be located in the 'models' folder. 
-Each folder includes the main scripts such as:
+Each folder includes the main scripts, such as:
 
-- vae.py 
-- vae_train 
-- generate_levels_vae.py 
+* vae.py, vae_train, generate_levels_vae.py 
+  
 
-
-- gan.py
-- gan_train.py 
-- generate_levels_gan.py
+* gan.py, gan_train.py, generate_levels_gan.py
 
 
-- dcgan.py
-- dcgan_train.py
-- generate_levels_dcgan.py
+* dcgan.py, dcgan_train.py, generate_levels_dcgan.py
 
-For the generation of levels, either a random latent vector, CMAES, a simple genetic algorithm or MAP-Elites can be used.
+A random latent vector, CMAES, a simple genetic algorithm, or MAP-Elites, can be used to generate levels.
 
 
-For each model, there is at least one pre-trained option available and can be found under trained_vae, trained_gan, and trained_dcgan.
+Each model has at least one pre-trained option available and can be found under trained_vae, trained_gan, and trained_dcgan.
 To utilise the MarioGPT minimal implementation, please use:
 
 - minimal_training_gpt.py 
@@ -28,18 +25,20 @@ To utilise the MarioGPT minimal implementation, please use:
 - simulation_gpt.py 
 
 Note: 
-- MarioGPT was simply re-trained and there were no changes to the architecture, only slight variations in the training settings. 
+- MarioGPT was re-trained, and there were no changes to the architecture, only slight variations in the training settings. 
 The minimal_generation_gpt.py file offers the option to utilise prompts, such as `prompts = ["many pipes, many enemies, some blocks, high elevation"]`.
 - The pre-trained MarioGPT model can be found [here](https://drive.google.com/drive/folders/1KLLGjMD17G3N8SpJz2CU-ai4g_4DM3Iz?usp=sharing) (send a request for access)
 - A sample of Gonzalez's original minimal VAE can be located at models/VAE/trained_vae/example.pt.
 
+
 ## Virtual environment and installing requirements
 
-Create a virtual environment and use at least Python version `>=3.9`. Then install the necessary requirements by running this:
+Create a virtual environment and use at least Python version `>=3.9`. Then, install the necessary requirements by running this:
 
 ```
 pip install -r requirements.txt
 ```
+
 
 ## Visualising a model
 
@@ -54,6 +53,8 @@ python visualize.py
 
 To execute the simulation using 'simulator.jar', a Java version above 8 (at least `OpenJDK 15.0.2`) is required.
 
+
+
 ## Play Level
 
 To play a level yourself, use `human_player=True`, otherwise `human_player=False`. 
@@ -66,7 +67,7 @@ python load_run_level.py
 
 
 ## Bibliography and Software
-Implementations are based, adapted and/or inspired by following works:
+Implementations are based, adapted and/or inspired by the following works:
 Sudhakaran, s., Glanois, C., Freiberger, M., Najarro, E., & Risi S., 2023.
 MarioGPT: Open-Ended Text2Level Generation through Large Language Models.
 Available from: https://github.com/shyamsn97/mario-gpt/tree/main [Accessed 04 April 2023]
@@ -94,10 +95,10 @@ Mathieu, E., Rainforth, T., Siddharth, N., & Teh, Y. W., 2019.
 Disentangling disentanglement in variational autoencoders.
 In International conference on machine learning (pp. 4402-4412). PMLR.
 
-Simulator to run simulator.jar (Mario Framework) using generated levels from trained VAE models.
-Playable as a human player or with Robin Baumgarten's super-human A* agent.
-
 Map-Elites based and adapted from:
 Bryon Tjanaka and Sam Sommerer and Nikitas Klapsis and Matthew C. Fontaine and Stefanos Nikolaidis, 2021.
 Using CMA-ME to Land a Lunar Lander Like a Space Shuttle. Available from:
 https://docs.pyribs.org/en/stable/tutorials/lunar_lander.html [Accessed 07.07.2023]
+
+
+![](https://github.com/amelieLePanda/Mario_ALife_Master_Thesis/blob/main/results_playabilit_out_of_five/extreme_diff_mario_fail_high_quality.gif)
