@@ -102,3 +102,4 @@ https://docs.pyribs.org/en/stable/tutorials/lunar_lander.html [Accessed 07.07.20
 
 
 ![](https://github.com/amelieLePanda/Mario_ALife_Master_Thesis/blob/main/results_playabilit_out_of_five/extreme_diff_mario_fail_high_quality.gif)
+![Image](https://github.com/amelieLePanda/Mario_ALife_Master_Thesis/blob/main/results_playabilit_out_of_five/extreme_diff_mario_pass__high_quality.gif)
