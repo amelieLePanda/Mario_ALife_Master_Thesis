@@ -3,7 +3,7 @@
 ![Image](https://github.com/amelieLePanda/Mario_ALife_Master_Thesis/blob/main/results_playabilit_out_of_five/difficult_mario_agent_fails_runs_back_multiple.gif)
 
 
-GAN, DCGAN, Minimal VAE and MarioGPT can be located in the 'models' folder. 
+**GAN, DCGAN, Minimal VAE** and **MarioGPT** can be located in the 'models' folder. 
 Each folder includes the main scripts, such as:
 
 * vae.py, vae_train, generate_levels_vae.py 
@@ -24,14 +24,14 @@ To utilise the MarioGPT minimal implementation, please use:
 - minimal_generation_gpt.py
 - simulation_gpt.py 
 
-Note: 
+**Note**: 
 - MarioGPT was re-trained, and there were no changes to the architecture, only slight variations in the training settings. 
 The minimal_generation_gpt.py file offers the option to utilise prompts, such as `prompts = ["many pipes, many enemies, some blocks, high elevation"]`.
 - The pre-trained MarioGPT model can be found [here](https://drive.google.com/drive/folders/1KLLGjMD17G3N8SpJz2CU-ai4g_4DM3Iz?usp=sharing) (send a request for access)
 - A sample of Gonzalez's original minimal VAE can be located at models/VAE/trained_vae/example.pt.
 
 
-## Virtual environment and installing requirements
+## Virtual Environment and Installing Requirements
 
 Create a virtual environment and use at least Python version `>=3.9`. Then, install the necessary requirements by running this:
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 
-## Visualising a model
+## Visualising Model
 
 To visualise the latent space representation of a trained model, use:
 
